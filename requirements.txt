@@ -1,0 +1,10 @@
+flask
+validators
+python-dotenv
+langchain-openai
+langchain-classic
+langchain-community
+langchain-core
+langchain-text-splitters
+beautifulsoup4
+youtube-transcript-api
