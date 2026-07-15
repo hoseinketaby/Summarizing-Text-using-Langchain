@@ -130,3 +130,72 @@ body {
   border: 1px solid #245431;
   color: #b7f0c4;
 }
+
+/* ---------------------------------------------------- */
+/* Responsive: tablet and below                          */
+/* ---------------------------------------------------- */
+@media (max-width: 768px) {
+  .layout {
+    flex-direction: column;
+    min-height: auto;
+  }
+
+  .sidebar {
+    width: 100%;
+    border-right: none;
+    border-bottom: 1px solid #262730;
+    padding: 20px 16px;
+  }
+
+  .main {
+    max-width: 100%;
+    padding: 28px 20px;
+  }
+
+  .main h1 {
+    font-size: 22px;
+  }
+
+  .main h3 {
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+}
+
+/* ---------------------------------------------------- */
+/* Responsive: phones                                     */
+/* ---------------------------------------------------- */
+@media (max-width: 480px) {
+  .sidebar {
+    padding: 16px 14px;
+  }
+
+  .sidebar h2 {
+    font-size: 15px;
+  }
+
+  .main {
+    padding: 20px 14px;
+  }
+
+  .main h1 {
+    font-size: 19px;
+  }
+
+  #url {
+    font-size: 16px; /* prevents iOS Safari auto-zoom on focus */
+    padding: 12px;
+  }
+
+  #summarizeBtn {
+    width: 100%;
+    padding: 12px;
+    font-size: 15px;
+  }
+
+  .status,
+  .result {
+    font-size: 13px;
+    padding: 12px;
+  }
+}
